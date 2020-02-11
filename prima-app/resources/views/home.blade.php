@@ -1,4 +1,11 @@
 @extends('layouts.main')
 @section('content')
-  <h1>home</h1>
+  <div class="jumbo">
+    <div class="jumboLeft">
+
+    </div>
+    <div class="jumboRight">
+
+    </div>
+  </div>
 @endsection

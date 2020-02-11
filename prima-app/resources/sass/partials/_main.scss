@@ -1,0 +1,18 @@
+.jumbo {
+  width: 1110px;
+  background-color: yellow;
+  height: 400px;
+  margin: 0 auto;
+  margin-top: 150px;
+  display: flex;
+  .jumboLeft {
+    width: 555px;
+    background-color: red;
+    height: 400px;
+  }
+  .jumboRight {
+    width: 555px;
+    background-color: blue;
+    height: 400px;
+  }
+}

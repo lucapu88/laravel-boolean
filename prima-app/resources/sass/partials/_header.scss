@@ -1,0 +1,35 @@
+header {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-color: $primaryColor;
+}
+.container {
+  height: 90px;
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  .logo {
+    display: flex;
+    img {
+      width: 200px;
+    }
+  }
+  nav {
+    padding: 15px;
+    display: flex;
+    a {
+      margin-left: 40px;
+      padding-bottom: 25px;
+      text-decoration: none;
+      text-transform: uppercase;
+    }
+    a:first-child {
+      border-bottom: 2px solid #73D462;
+    }
+    a:hover {
+      border-bottom: 2px solid #73D462;
+    }
+
+  }
+}
