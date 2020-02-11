@@ -1,0 +1,40 @@
+footer {
+  display: flex;
+  flex-direction: column;
+  background-color: #1B3C59;
+  color: white;
+}
+.footerContainer {
+  padding-top: 50px;
+  @include containerSize();
+}
+.top {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 20px;
+  border-bottom: 1px solid $primaryColor;
+  .left {
+    img {
+      width: $imgWidth;
+    }
+  }
+  .right {
+    display: flex;
+    flex-direction: column;
+    text-align: right;
+    font-size: 20px;
+    a {
+      text-decoration: none;
+      color: $primaryColor;
+      line-height: 1.5;
+      &:hover {
+        text-decoration: underline;
+      }
+    }
+  }
+}
+.bottom {
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+}

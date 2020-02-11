@@ -1,1 +1,6 @@
 $primaryColor: white;
+$imgWidth: 200px;
+@mixin containerSize() {
+  width: 1110px;
+  margin: 0 auto;
+}
