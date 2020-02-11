@@ -9,9 +9,9 @@
       </div>
       <div class="right">
         <a href="#">Lezione gratuita</a>
-        <a href="#">Domande frequenti</a>
+        <a href="{{route('faq')}}">Domande frequenti</a>
         <a href="#">Per le aziende</a>
-        <a href="#">Privacy policy</a>
+        <a href="{{route('privacy')}}">Privacy policy</a>
         <a href="#">Lavora con noi</a>
       </div>
     </div>

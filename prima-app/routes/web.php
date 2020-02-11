@@ -13,10 +13,11 @@
 
 Route::get('/', function () {
     return view('home');
-});
+})->name('home');
 Route::get('/faq', function () {
     return view('faq');
-});
+})->name('faq');
+
 Route::get('/privacy-policy', function () {
     return view('privacy-policy');
-});
+})->name('privacy');

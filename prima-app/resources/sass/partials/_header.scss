@@ -19,8 +19,9 @@ header {
     padding: 15px;
     display: flex;
     a {
-      margin-left: 40px;
+      margin-left: 60px;
       padding-bottom: 25px;
+      color: $secondaryColor;
       text-decoration: none;
       text-transform: uppercase;
     }
@@ -30,6 +31,14 @@ header {
     a:hover {
       border-bottom: 2px solid #73D462;
     }
-
+    .button {
+      padding: 5px 20px;
+      margin-left: 60px;
+      background-color: #73D462;
+      border-radius: 5px;
+      border-style: none;
+      color: white;
+      text-transform: uppercase;
+    }
   }
 }

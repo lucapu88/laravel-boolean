@@ -1,0 +1,11 @@
+.containerP {
+  @include containerSize();
+  color: $secondaryColor;
+  margin-top: 40px;
+  h1 {
+    margin-top: 100px;
+  }
+  p {
+    line-height: 1.5;
+  }
+}

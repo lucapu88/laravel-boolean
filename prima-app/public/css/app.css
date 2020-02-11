@@ -36,8 +36,9 @@ header {
 }
 
 .container nav a {
-  margin-left: 40px;
+  margin-left: 60px;
   padding-bottom: 25px;
+  color: #1B3C59;
   text-decoration: none;
   text-transform: uppercase;
 }
@@ -48,6 +49,16 @@ header {
 
 .container nav a:hover {
   border-bottom: 2px solid #73D462;
+}
+
+.container nav .button {
+  padding: 5px 20px;
+  margin-left: 60px;
+  background-color: #73D462;
+  border-radius: 5px;
+  border-style: none;
+  color: white;
+  text-transform: uppercase;
 }
 
 .jumbo {
@@ -84,6 +95,21 @@ header {
   width: 100%;
   margin: 0 auto;
   padding-top: 70px;
+}
+
+.containerP {
+  width: 1110px;
+  margin: 0 auto;
+  color: #1B3C59;
+  margin-top: 40px;
+}
+
+.containerP h1 {
+  margin-top: 100px;
+}
+
+.containerP p {
+  line-height: 1.5;
 }
 
 footer {
