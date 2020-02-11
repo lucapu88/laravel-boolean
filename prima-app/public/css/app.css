@@ -53,22 +53,37 @@ header {
 .jumbo {
   width: 1110px;
   margin: 0 auto;
-  background-color: yellow;
-  height: 400px;
   margin-top: 150px;
+  margin-bottom: 100px;
   display: flex;
 }
 
 .jumbo .jumboLeft {
   width: 555px;
-  background-color: red;
+  background-color: white;
+  color: #1B3C59;
   height: 400px;
+  padding: 20px;
+}
+
+.jumbo .jumboLeft p {
+  font-size: 55px;
+  padding-bottom: 20px;
+}
+
+.jumbo .jumboLeft ul {
+  padding: 15px;
 }
 
 .jumbo .jumboRight {
   width: 555px;
-  background-color: blue;
   height: 400px;
+}
+
+.jumbo .jumboRight img {
+  width: 100%;
+  margin: 0 auto;
+  padding-top: 70px;
 }
 
 footer {

@@ -1,17 +1,29 @@
 .jumbo {
   @include containerSize();
-  background-color: yellow;
-  height: 400px;
   margin-top: 150px;
+  margin-bottom: 100px;
   display: flex;
   .jumboLeft {
     width: 555px;
-    background-color: red;
+    background-color: $primaryColor;
+    color: $secondaryColor;
     height: 400px;
+    padding: 20px;
+    p {
+      font-size: 55px;
+      padding-bottom: 20px;
+    }
+    ul {
+      padding: 15px;
+    }
   }
   .jumboRight {
     width: 555px;
-    background-color: blue;
     height: 400px;
+    img {
+      width: 100%;
+      margin: 0 auto;
+      padding-top: 70px;
+    }
   }
 }
