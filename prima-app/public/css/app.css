@@ -101,14 +101,29 @@ header {
   width: 1110px;
   margin: 0 auto;
   color: #1B3C59;
+  margin-top: 20px;
+  margin-bottom: 50px;
+}
+
+.containerP .title {
   margin-top: 40px;
+  padding: 20px 0;
 }
 
-.containerP h1 {
-  margin-top: 100px;
+.containerP .title h1 {
+  margin-top: 50px;
+  margin-bottom: 40px;
 }
 
-.containerP p {
+.containerP .text p {
+  line-height: 1.5;
+}
+
+.containerP .text ul {
+  margin-left: 30px;
+}
+
+.containerP .text ul li {
   line-height: 1.5;
 }
 
