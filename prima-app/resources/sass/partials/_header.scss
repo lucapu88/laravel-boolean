@@ -18,14 +18,14 @@ header {
   nav {
     padding: 15px;
     display: flex;
-    a {
+    .nav {
       margin-left: 60px;
       padding-bottom: 25px;
       color: $secondaryColor;
       text-decoration: none;
       text-transform: uppercase;
     }
-    a:first-child {
+    .active {
       border-bottom: 2px solid $greenBool;
     }
     a:hover {

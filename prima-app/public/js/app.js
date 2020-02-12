@@ -29896,11 +29896,19 @@ __webpack_require__(/*! ./bootstrap */ "./resources/js/bootstrap.js");
 var $ = __webpack_require__(/*! jquery */ "./node_modules/jquery/dist/jquery.js");
 
 $(document).ready(function () {
-  $('.piùLeft').click(function () {
-    $('.rispostaLeft').slideToggle();
+  $('.slideLeft').click(function () {
+    //al click cul più nela domanda del riquadro di sinistra
+    $('.rispostaLeft').slideToggle(); //compare/scompare la risposta
+
+    $('.piùLeft').toggleClass('hidden'); //compare/scompare il simbolo +
+
+    $('.menoLeft').toggleClass('visible'); //compare/scompare il simbolo -
   });
-  $('.piùRight').click(function () {
+  $('.slideRight').click(function () {
+    //stessa cosa di prima soltanto che funziona per il contenitore di destra
     $('.rispostaRight').slideToggle();
+    $('.piùRight').toggleClass('hidden');
+    $('.menoRight').toggleClass('visible');
   });
 });
 

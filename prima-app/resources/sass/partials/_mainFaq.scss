@@ -3,7 +3,7 @@
   color: $secondaryColor;
   .domandeFrequenti {
     line-height: 1.8;
-    margin-bottom: 50px;
+    padding-bottom: 50px;
     @include containerSize();
   }
   .faqSquare {
@@ -20,11 +20,27 @@
       background-color: $secondaryColor;
       color: $primaryColor;
     }
+    span:hover {
+      cursor: pointer;
+    }
   }
-  span:hover {
-    cursor: pointer;
+  .domandaLeft, .domandaRight {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .slideLeft, .slideRight {
+    font-size: 30px;
+    font-weight: bold;
+    margin-left: 10px;
   }
   .rispostaLeft, .rispostaRight, .menoLeft, .menoRight {
+    display: none;
+  }
+  .visible {
+    display: block;
+  }
+  .hidden {
     display: none;
   }
 }

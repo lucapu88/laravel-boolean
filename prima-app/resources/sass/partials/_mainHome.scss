@@ -3,11 +3,14 @@
   margin-top: 150px;
   margin-bottom: 100px;
   display: flex;
+  flex-wrap: wrap;
   .jumboLeft {
-    width: 555px;
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    height: 400px;
     background-color: $primaryColor;
     color: $secondaryColor;
-    height: 400px;
     padding: 20px;
     p {
       font-size: 55px;
@@ -18,7 +21,8 @@
     }
   }
   .jumboRight {
-    width: 555px;
+    display: flex;
+    width: 50%;
     height: 400px;
     img {
       width: 100%;

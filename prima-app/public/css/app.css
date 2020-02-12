@@ -35,7 +35,7 @@ header {
   display: flex;
 }
 
-.container nav a {
+.container nav .nav {
   margin-left: 60px;
   padding-bottom: 25px;
   color: #1B3C59;
@@ -43,7 +43,7 @@ header {
   text-transform: uppercase;
 }
 
-.container nav a:first-child {
+.container nav .active {
   border-bottom: 2px solid #73D462;
 }
 
@@ -67,13 +67,16 @@ header {
   margin-top: 150px;
   margin-bottom: 100px;
   display: flex;
+  flex-wrap: wrap;
 }
 
 .jumbo .jumboLeft {
-  width: 555px;
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  height: 400px;
   background-color: white;
   color: #1B3C59;
-  height: 400px;
   padding: 20px;
 }
 
@@ -87,7 +90,8 @@ header {
 }
 
 .jumbo .jumboRight {
-  width: 555px;
+  display: flex;
+  width: 50%;
   height: 400px;
 }
 
@@ -134,7 +138,7 @@ header {
 
 .faqContainer .domandeFrequenti {
   line-height: 1.8;
-  margin-bottom: 50px;
+  padding-bottom: 50px;
   width: 1110px;
   margin: 0 auto;
 }
@@ -157,8 +161,22 @@ header {
   color: white;
 }
 
-.faqContainer span:hover {
+.faqContainer .faqSquare span:hover {
   cursor: pointer;
+}
+
+.faqContainer .domandaLeft,
+.faqContainer .domandaRight {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.faqContainer .slideLeft,
+.faqContainer .slideRight {
+  font-size: 30px;
+  font-weight: bold;
+  margin-left: 10px;
 }
 
 .faqContainer .rispostaLeft,
@@ -168,11 +186,20 @@ header {
   display: none;
 }
 
+.faqContainer .visible {
+  display: block;
+}
+
+.faqContainer .hidden {
+  display: none;
+}
+
 footer {
   display: flex;
   flex-direction: column;
   background-color: #1B3C59;
   color: white;
+  width: 100%;
 }
 
 .footerContainer {
