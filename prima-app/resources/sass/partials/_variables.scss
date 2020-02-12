@@ -2,6 +2,7 @@ $primaryColor: white;
 $secondaryColor: #1B3C59;
 $greenBool: #73D462;
 $imgWidth: 200px;
+$padding: 10px 0;
 @mixin containerSize() {
   width: 1110px;
   margin: 0 auto;

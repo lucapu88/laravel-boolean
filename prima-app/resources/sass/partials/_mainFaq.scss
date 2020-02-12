@@ -28,6 +28,11 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
+    padding: $padding;
+  }
+  .rispostaLeft, .rispostaRight {
+    padding: $padding;
+    line-height: 1.6;
   }
   .slideLeft, .slideRight {
     font-size: 30px;
@@ -41,6 +46,16 @@
     display: block;
   }
   .hidden {
+    display: none;
+  }
+}
+.domandaRispContainer.active {
+  .rispostaLeft {
+    display: block; 
+  }
+}
+.domandaRispContainer {
+  .rispostaLeft {
     display: none;
   }
 }
