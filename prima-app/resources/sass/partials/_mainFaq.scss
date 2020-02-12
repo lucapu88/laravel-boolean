@@ -1,0 +1,30 @@
+.faqContainer {
+  margin-top: 100px;
+  color: $secondaryColor;
+  .domandeFrequenti {
+    line-height: 1.8;
+    margin-bottom: 50px;
+    @include containerSize();
+  }
+  .faqSquare {
+    display: flex;
+    .prima {
+      width: 50%;
+      padding: 3% 9%;
+      background-color: #E8EBF1;
+      color: $secondaryColor;
+    }
+    .dopo {
+      width: 50%;
+      padding: 3% 9%;
+      background-color: $secondaryColor;
+      color: $primaryColor;
+    }
+  }
+  span:hover {
+    cursor: pointer;
+  }
+  .rispostaLeft, .rispostaRight, .menoLeft, .menoRight {
+    display: none;
+  }
+}

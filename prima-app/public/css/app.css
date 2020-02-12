@@ -127,6 +127,47 @@ header {
   line-height: 1.5;
 }
 
+.faqContainer {
+  margin-top: 100px;
+  color: #1B3C59;
+}
+
+.faqContainer .domandeFrequenti {
+  line-height: 1.8;
+  margin-bottom: 50px;
+  width: 1110px;
+  margin: 0 auto;
+}
+
+.faqContainer .faqSquare {
+  display: flex;
+}
+
+.faqContainer .faqSquare .prima {
+  width: 50%;
+  padding: 3% 9%;
+  background-color: #E8EBF1;
+  color: #1B3C59;
+}
+
+.faqContainer .faqSquare .dopo {
+  width: 50%;
+  padding: 3% 9%;
+  background-color: #1B3C59;
+  color: white;
+}
+
+.faqContainer span:hover {
+  cursor: pointer;
+}
+
+.faqContainer .rispostaLeft,
+.faqContainer .rispostaRight,
+.faqContainer .menoLeft,
+.faqContainer .menoRight {
+  display: none;
+}
+
 footer {
   display: flex;
   flex-direction: column;
