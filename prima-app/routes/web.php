@@ -15,7 +15,7 @@ Route::get('/', function () {
     return view('home');
 })->name('home');
 Route::get('/faq', function () {
-    return view('faq');
+    return view('faq', ['faq' => config('dati.faq')]);
 })->name('faq');
 
 Route::get('/privacy-policy', function () {

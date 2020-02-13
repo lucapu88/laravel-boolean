@@ -29905,7 +29905,8 @@ $(document).ready(function () {
       $(this).find('.scopri').text('-'); //va ad inserire il -
     } else {
       $(this).find('.scopri').text('+'); //altrimenti va ad inserire il +
-    }
+    } // $('.domandaRispContainer').removeClass('active');
+
 
     $(this).parents('.domandaRispContainer').toggleClass('active'); //risalgo al div contenitore del div cliccato e vado ad inserire/togliere la classe active
     // $('.rispostaLeft').slideToggle(); //compare/scompare la risposta

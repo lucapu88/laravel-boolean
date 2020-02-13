@@ -8,6 +8,7 @@ $(document).ready (function(){
     } else {
       $(this).find('.scopri').text('+'); //altrimenti va ad inserire il +
     }
+    // $('.domandaRispContainer').removeClass('active');
     $(this).parents('.domandaRispContainer').toggleClass('active'); //risalgo al div contenitore del div cliccato e vado ad inserire/togliere la classe active
     // $('.rispostaLeft').slideToggle(); //compare/scompare la risposta
     // $('.piùLeft').toggleClass('hidden'); //compare/scompare il simbolo +
