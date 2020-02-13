@@ -1,4 +1,5 @@
 @extends('layouts.main')
+@section('title', 'Il corso per diventare web developer')
 @section('content')
   <div class="jumbo">
     <div class="jumboLeft">

@@ -1,4 +1,5 @@
 @extends('layouts.main')
+@section('title', 'Privacy - Policy Boolean Careers')
 @section('content')
   <div class="containerP">
     <div class="title">

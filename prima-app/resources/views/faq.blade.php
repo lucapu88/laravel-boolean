@@ -1,4 +1,5 @@
 @extends('layouts.main')
+@section('title', 'FAQ - Boolean Careers')
 @section('content')
   <div class="faqContainer">
     <div class="domandeFrequenti">
